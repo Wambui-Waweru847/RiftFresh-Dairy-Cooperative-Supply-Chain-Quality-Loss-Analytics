@@ -43,8 +43,8 @@ This design keeps each piece doing one job: Power Query handles shaping, the sta
 
 ## Data Model
 
-![RiftFresh ERD](<img width="494" height="411" alt="Screenshot 2026-09-21 120801" src="https://github.com/user-attachments/assets/a4a40ff4-5893-4e03-a114-3c5b2f1538e9" />
-)
+![RiftFresh ERD]
+<img width="494" height="411" alt="Screenshot 2026-09-21 120801" src="https://github.com/user-attachments/assets/ae90e59e-df2c-48c9-81cc-ccf6bcb643b4" />
 
 - Star schema: 1 fact table (`Fact_Supply`), dimension tables for Farmer, Collection Center (rolling up to County), and Date
 - 65,000 rows in the core fact table
@@ -67,8 +67,7 @@ This design keeps each piece doing one job: Power Query handles shaping, the sta
 
 ## Screenshots
 
-![Executive Overview — Where are we making the losses](screenshots/page1_executive_overview.png)
-![Accountability and Prioritization — What should we do?](screenshots/page2_accountability.png)
+<img width="711" height="1200" alt="RiftFresh_Combined_Pages" src="https://github.com/user-attachments/assets/75778f07-37e8-45d6-801c-7056e07dd559" />
 
 ## Repo Contents
 
@@ -78,6 +77,4 @@ This design keeps each piece doing one job: Power Query handles shaping, the sta
 - `docs/requirements.md` — business & functional requirements this report was built to satisfy
 - `docs/images/erd.png` — entity-relationship diagram of the star schema
 
-## Notes
 
-This report uses synthetic/portfolio data and does not represent a real dairy cooperative's operations.
