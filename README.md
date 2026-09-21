@@ -43,7 +43,7 @@ This design keeps each piece doing one job: Power Query handles shaping, the sta
 
 ## Data Model
 
-[RiftFresh ERD]
+**RiftFresh ERD**
 <img width="494" height="411" alt="Screenshot 2026-09-21 120801" src="https://github.com/user-attachments/assets/ae90e59e-df2c-48c9-81cc-ccf6bcb643b4" />
 
 - Star schema: 1 fact table (`Fact_Supply`), dimension tables for Farmer, Collection Center (rolling up to County), and Date
@@ -76,7 +76,7 @@ This design keeps each piece doing one job: Power Query handles shaping, the sta
 - `docs/images/erd.png` — entity-relationship diagram of the star schema
 
 ## References
-[View Report]https://app.powerbi.com/view?r=eyJrIjoiYzYyNGNiNjItMGQ3OC00YTE5LWEwZDItMzU1YTQ2ZDZhNTVjIiwidCI6ImJhOWExYzg5LTI2YmYtNDIzNy05ZDVhLTliZDY3M2QwZjYyZCJ9
+**View Report**:https://app.powerbi.com/view?r=eyJrIjoiYzYyNGNiNjItMGQ3OC00YTE5LWEwZDItMzU1YTQ2ZDZhNTVjIiwidCI6ImJhOWExYzg5LTI2YmYtNDIzNy05ZDVhLTliZDY3M2QwZjYyZCJ9
 
 
 
